@@ -487,7 +487,7 @@ color: rgb(104, 103, 103);
     margin-bottom: 20px;
 }
 .bg-with-diff-clr button {
-    margin-top: 20px;
+    margin-top: 100px;
     font-size: 20px;
     color: white;
     background-color: black;
@@ -495,6 +495,8 @@ color: rgb(104, 103, 103);
     height: 50px;
     border-radius: 10px;
     transition: all 0.5s ease;
+    
+   
 }
 .bg-with-diff-clr button:hover{
     font-size: 23px;
@@ -551,9 +553,111 @@ color: rgb(104, 103, 103);
     background-color: black;
     position: fixed;
     bottom: 0;  
-    margin-left: 1350px;
+    margin-left: 1250px;
     margin-bottom: 10px;
     border-radius: 5px;
    
     
+}
+
+
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin-left: 100px;
+}
+.header{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.header p{
+    font-size: 20px;
+}
+.image-container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    transition: all 0.5s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text1 h1{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 30px;
+
+}
+.box{
+    display: flex;
+    column-gap: 100px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.box1{
+    display: flex;
+    column-gap: 100px;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+   
+}
+.text2{
+    padding-top: 200px;
+    text-align: center;
+}
+.text2 h1{
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.text2 button{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+margin-top: 40px;
 }

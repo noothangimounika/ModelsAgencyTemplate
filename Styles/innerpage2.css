@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:100%;
+    height: 1000px;
+    background-color: white;
+
+    display: flex;
+    column-gap: 40px;
+    padding-top: 100px;
+    position: relative;
+}
+.header{
+    
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.header p{
+    font-size: 20px;
+
+}
+.table{
+    padding-top: 40px;
+    
+}
+.table  th{
+    padding-top: 50px;
+ padding-left: 20px;
+}
+.table td{
+    padding-left: 20px;
+    text-align: center;
+}
+.table tr{
+    justify-content: center;
+
+}
+.hari{
+    padding-top: 100px;
+}
+.footer{
+    background-color: black;
+    color: wheat;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 1600px;
+   
+    
+}
+
+.footer-divs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+.footer-div1 p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer-div1 .footer-icons ion-icon{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.footer-div1 .footer-icons ion-icon:hover{
+    color: rgb(58, 149, 209);
+}
+.below-text{
+    margin-top: 50px;
+    text-align: center;
+}
+.below-text a{
+    color: wheat;
+    padding: 5px;
+}
+.below-text a:hover{
+    color: #5a9bcf;
+    text-decoration: underline;
+    
+}
+.down-arrow ion-icon{
+    color: white;
+    width: 40px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;  
+    margin-left: 1350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+    
+}

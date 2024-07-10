@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.conatiner{
+    width: 100%;
+    background-color: white;
+}
+.sidebar {
+  /* height: 100%;
+  width: 100%;  */
+  position: fixed;
+  top: 20%;
+  
+  left: -400px; 
+  background-color: rgb(218, 182, 200);
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px; 
+
+} 
+
+.sidebar ul  {
+  display: flex ;
+}
+.sidebar a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  display: block;
+  transition:all 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #5a9bcf;
+  border-radius: 10px;
+  
+}
+
+.sidebar .active {
+  background-color:transparent;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 1350px;
+}
+
+.toggle-btn span {
+  background-color: #111;
+  height: 4px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.content {
+  margin-left: 20px;
+  padding: 15px;
+  transition: margin-left 0.3s;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.toggle-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.toggle-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+.menu-bar-icons ion-icon{
+font-size: 30px;  
+margin-top: 150px;
+padding: 10px;
+transition: all 0.5s ease;
+cursor: pointer;
+}
+.menu-bar-icons ion-icon:hover{
+  font-size: 32px;
+  color: rgb(46, 109, 204);
+}
+
+.sidebar .active {
+    background-color:transparent;
+}
+
+ .box{
+    display: flex;
+    padding-top: 100px;
+    column-gap: 300px;
+}
+.header{
+    padding-left: 200px;
+    padding-top: 300px;
+}
+.form .container {
+    width: 650px;
+    height: 700px;
+    box-shadow: 20px;
+    background-color: rgb(211, 209, 209);
+    border-radius: 20px;
+  
+  }
+  
+  
+  .container form input{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  #registrationForm{
+    margin-left: 50px;
+    padding-top: 50px;
+   
+  }
+  ::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #submit-btn{
+    background-color: rgb(45, 82, 185);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    transition: all o.5s all;
+  }
+  #submit-btn:hover{
+    background-color: rgb(15, 55, 189);
+    border: 2px solid black;
+  }
+  #registrationForm h2{
+    font-size: 40px;
+  }
+  #registrationForm label{
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  .main{
+    display: flex;
+  }
+  .maps{
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  .maps p{
+    font-size: 20px;
+    padding-top: 10px;
+  } 
+  .footer{
+    background-color: black;
+    color: wheat;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+.footer-divs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+.footer-div1 p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer-div1 .footer-icons ion-icon{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.footer-div1 .footer-icons ion-icon:hover{
+    color: rgb(58, 149, 209);
+}
+.below-text{
+    margin-top: 50px;
+    text-align: center;
+}
+.below-text a{
+    color: wheat;
+    padding: 5px;
+}
+.below-text a:hover{
+    color: #5a9bcf;
+    text-decoration: underline;
+    
+}
+.down-arrow ion-icon{
+    color: white;
+    width: 40px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;  
+    margin-left: 1400px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+    
+}

@@ -21,7 +21,7 @@ body {
     width: 100%;  */
     position: fixed;
     top: 20%;
-  
+    
     left: -400px;
     background-color: rgb(218, 182, 200);
     overflow-x: hidden;
@@ -83,7 +83,7 @@ body {
 }
 
 .toggle-btn.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(8px, 8px);
 }
 
 .toggle-btn.active span:nth-child(2) {
@@ -454,4 +454,106 @@ color: rgb(104, 103, 103);
 .Our-Pricing-div2 button:hover{
     background-color: black;
     color: white;
+}
+
+.bg-with-diff-clr{
+    text-align: center;
+    margin-bottom: 100px;
+    background: linear-gradient(45deg,gray,rgb(155, 202, 200),rgb(212, 161, 200),rgb(97, 93, 93));
+    height: 500px;
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    border-radius: 20px;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.bg-with-diff-clr h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+.bg-with-diff-clr p{
+    font-size: 20px;
+    color: rgb(70, 68, 68);
+    margin-bottom: 20px;
+}
+.bg-with-diff-clr button {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.bg-with-diff-clr button:hover{
+    font-size: 23px;
+    transform: scale(1.1);
+}
+
+
+.footer{
+    background-color: black;
+    color: wheat;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+.footer-divs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+.footer-div1 p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer-div1 .footer-icons ion-icon{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.footer-div1 .footer-icons ion-icon:hover{
+    color: rgb(58, 149, 209);
+}
+.below-text{
+    margin-top: 50px;
+    text-align: center;
+}
+.below-text a{
+    color: wheat;
+    padding: 5px;
+}
+.below-text a:hover{
+    color: #5a9bcf;
+    text-decoration: underline;
+    
+}
+.down-arrow ion-icon{
+    color: white;
+    width: 40px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;  
+    margin-left: 1350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+    
 }
